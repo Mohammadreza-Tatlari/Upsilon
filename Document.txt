@@ -1,0 +1,32 @@
+Upsilon Main Project Documentation.
+
+Sections and Pages:
+1.Main Page
+1.1 the point of this page is to represent the main topics and hero of the website with some additional components and utilities that 
+will be added in further approach such as Counter - Hero - Testimonial and ...
+
+2.Gallery Page: The purpose of this section is dedicated to announce and gather most of the Galleries that are located in Tehran 
+the structure of this page is based on App Routing. it means that the main page contains cards and short information about each gallery
+and when user click on each, she will be redirected to a simple article page that holds full information about the card that user came from
+
+
+3.Narcotic Page: this page contains 2 parts which are main and sidebar. the purpose of this page is to share and represent some content
+from different channels that are all located in Telegram. the contents are Music, Images, and Scripts.
+Structue of this page is not base on Routing but it is more like data flowing between components. more command and documents are located 
+inside the page folder.
+
+About the Issue #4
+I tried to send up properties form PlaylistCard to MusicPage and Somehow the process was successful in order to control 
+the duration and seek back and forth but when I wanted to set up a max attribute to input:range it only gets the latest music
+property from the mapped tracks.
+I have decided to send the all the functionality to MusicPlayer Component and only send back the src and track information to it.
+how ever in further future and with better understanding and experiences I may want to reconsider the problem again.
+
+Issues:
+• #1 Most of Pages are not well-made for responsive environment and some have styling problem.
+• #2 Data bases and sources are all needs reconsideration
+• #3 in Music Page if User has IDM then musics will be automatically downloaded. find a solution to fix it. (Howler.js Issue)
+• #4 Howler and its management 
+• #5 (suspicious error) when app is initiated in Music Page input:range_seek(progress Bar) does not work properly in the beginning. (why?)
+
+

@@ -1,0 +1,61 @@
+THIS FILE IS ADDED to github due to delay in uploading repository to github. this project has been maintaned on local devices till 2023-10-10
+
+PRIORITY:
+1.Prepare a decent data with mongo and nextcloud for gallery page:
+1.1: learn how to use mongodb in nextjs
+1.1.1: how to manage api directory and what should be written in mongodb.js 
+link:https://nextjs.org/docs/app/building-your-application/routing/route-handlers#:%7E:text=Good%20to%20know,Route%20Handlers%20together
+1.2:
+
+check out the nextjs website and its sidebar behaviour. it is possible to add that in Narcotic page
+
+
+build up a footer
+isn't it a time to add a new Admin panel that can add Content?
+I need to look for a way to build up some database and meta data holder. maybe with MongoDB
+_______________________________________________________________________________________
+
+
+MAKE BETTER APPREANCE IN IMAGE PAGE (narcotic) (DONE)
+
+Music Page:
+make it possible to display the name of music when the music is played in musicplayer bar (DONE)
+when the Music Page is unmounted I want to set the music to be stopped (DONE)
+Write A Document About how you achieved the Music Controller (DONE)
+in testimonial component some data and links are not completed. fix them (DONE)
+
+A page with Sidbar that contains all those Narcotics Channels and when you click on some of the main shows the 3 section of content
+1.text or article (DONE)
+2.image and gallery (DONE)
+3.music with a play list (DONE)
+
+
+•To be complete
+
+Music Page needs to be more responsive for mobile phones
+
+SIDE MISSION: if you have stamina build a better instance DATA file
+
+6. then we pass some data to it and compare the name with the data base and show the content base on compared data
+7. to turn back to the previous page we can set a useEffect that redirect the whole Main Section to the categories when the name of the data 
+is changed. the name as it is mentioned comes from the Items in Sidebar  (DONE)
+
+
+
+
+
+
+## Upsilon
+Upsilon is self-inspired project for categorizing artworks. this self-motivated Project also created to gathering Tehran Galleries together and demonstrate event that each of galleries are hosting.
+also to give a short description about them and where the location are.
+Besides the gallery representation, Upsilon is a way to represent different artwork channels and muster all together in single app and make them organized and reachable. 
+
+## Tools and Technologies that have been used till now
+Nextjs
+Typescript
+Tailwindcss
+MongoDB
+
+
+## important
+this Project was hosted on local-machine for a while so a TODO text file is added that is placed for indication of the whole flow of project till 2023-10-10. the TODO.txt may receive update and shall be changed. so if such action happened, this file will be updated to boot. 

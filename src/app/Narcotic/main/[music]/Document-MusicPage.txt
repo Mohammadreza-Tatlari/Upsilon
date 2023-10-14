@@ -1,0 +1,2 @@
+I'm gonna give a short but explicit Documentation about How I build Up a simple music controller with list of tracks and range input for duration
+
